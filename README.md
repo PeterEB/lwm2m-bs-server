@@ -13,7 +13,7 @@ Please visit the [Wiki](https://github.com/PeterEB/lwm2m-bs-server/wiki).
 
 [**OMA Lightweight M2M**](http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-lightweightm2m-v1-0) (LWM2M) is a resource constrained device management protocol relies on [**CoAP**](https://tools.ietf.org/html/rfc7252). And **CoAP** is an application layer protocol that allows devices to communicate with each other RESTfully over the Internet.  
 
-**coap-shepherd** and **coap-node** modules aim to provide a simple way to build and manage a **LWM2M** machine network. 
+**coap-shepherd**, **coap-node** and **lwm2m-bs-server** modules aim to provide a simple way to build and manage a **LWM2M** machine network. 
 * Server-side library: [**coap-shepherd**](https://github.com/PeterEB/coap-shepherd)
 * Client-side library: [**coap-node**](https://github.com/PeterEB/coap-node)
 * Bootstrap server library: **lwm2m-bs-server** (this module)
@@ -34,6 +34,8 @@ Please visit the [Wiki](https://github.com/PeterEB/lwm2m-bs-server/wiki).
 <br />
 
 ## Usage
+
+This example shows how to start a bootstrap server and set a client bootstrap configuration after the server is ready:
 
 ```js
 var bsServer = require('lwm2m-bs-server');

@@ -14,6 +14,7 @@ bsServer.start(function (err) {
         console.log(err);
     } else {
         console.log('bss start');
+        console.log(bsServer._net);
     }
 });
 
