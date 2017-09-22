@@ -4,7 +4,7 @@ bsServer.on('ready', function () {
     bsServer.configure({ 
         clientName: 'coap-node-bbstest', 
         serverURI: 'coap://leshan.eclipse.org:5683'
-    }, function () {
+    }, function (err) {
         console.log(bsServer._configBox);
     });
 });
