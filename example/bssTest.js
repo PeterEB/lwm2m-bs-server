@@ -9,6 +9,10 @@ bsServer.on('ready', function () {
     });
 });
 
+bsServer.on('error', function (err) {
+    console.log(err);
+});
+
 bsServer.start(function (err) {
     if (err) {
         console.log(err);
