@@ -3,7 +3,7 @@ var bsServer = require('../index.js');
 bsServer.on('ready', function () {
     bsServer.configure({ 
         clientName: 'coap-node-bbstest', 
-        serverURI: 'coap://leshan.eclipse.org:5683'
+        serverURI: 'coap://127.0.0.1:5683'
     }, function (err) {
         console.log(bsServer._configBox);
     });
