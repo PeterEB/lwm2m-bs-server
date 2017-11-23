@@ -1,2 +1,0 @@
-{"$$indexCreated":{"fieldName":"clientName","unique":false,"sparse":false}}
-{"0":{"clientName":"coap-node-bbstest","serverURI":"coap://127.0.0.1:5683"},"clientName":"coap-node-bbstest","_id":"lBRYs50QqnGvjIlz"}
