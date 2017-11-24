@@ -1,6 +1,6 @@
 {
   "name": "lwm2m-bs-server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bootstrap server of lightweight M2M (LWM2M).",
   "main": "index.js",
   "scripts": {
