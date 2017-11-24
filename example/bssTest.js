@@ -1,8 +1,7 @@
 var bsServer = require('../index.js');
 
 bsServer.on('ready', function () {
-    bsServer.configure({ 
-        clientName: 'coap-node-bbstest', 
+    bsServer.configure('coap-node-bbstest', { 
         serverURI: 'coap://127.0.0.1:5683'
     }, function (err) {
         console.log(bsServer._configBox);

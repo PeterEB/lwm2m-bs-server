@@ -32,17 +32,20 @@ describe('bs-reqHandler', function () {
                         request: function (reqObj, cb) {
                             switch (reqObj.method) {
                                 case 'DELETE':      // deleteReq
-                                    deleteReqCount += 1;
+                                    if (reqObj.hostname === '192.168.1.110' && reqObj.port === 5432)
+                                        deleteReqCount += 1;
                                     cb(null, { code: '2.02' });
                                     break;
 
                                 case 'PUT':         // writeReq
-                                    writeReqCount += 1;
+                                    if (reqObj.hostname === '192.168.1.110' && reqObj.port === 5432)
+                                        writeReqCount += 1;
                                     cb(null, { code: '2.04' });
                                     break;
 
                                 case 'POST':        // finishReq
-                                    finishReqCount += 1;
+                                    if (reqObj.hostname === '192.168.1.110' && reqObj.port === 5432)
+                                        finishReqCount += 1;
                                     cb(null, { code: '2.04' });
                                     break;
 
@@ -61,7 +64,7 @@ describe('bs-reqHandler', function () {
                     },
                     reqMock = {
                         rsinfo: { 
-                            ip: '192.168.1.110',
+                            address: '192.168.1.110',
                             port: 5432
                         },
                         code: '0.01',
