@@ -1,6 +1,12 @@
 # lwm2m-bs-server
 Bootstrap server of lightweight M2M (LWM2M).
 
+[![NPM](https://nodei.co/npm/coap-node.png?downloads=true)](https://nodei.co/npm/lwm2m-bs-server/)  
+
+[![Build Status](https://travis-ci.org/PeterEB/coap-node.svg?branch=develop)](https://travis-ci.org/PeterEB/lwm2m-bs-server)
+[![npm](https://img.shields.io/npm/v/coap-node.svg?maxAge=2592000)](https://www.npmjs.com/package/lwm2m-bs-server)
+[![npm](https://img.shields.io/npm/l/coap-node.svg?maxAge=2592000)](https://www.npmjs.com/package/lwm2m-bs-server)
+
 <br />
 
 ## Documentation  
