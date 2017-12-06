@@ -73,11 +73,11 @@ describe('bs-server - Signature Check', function () {
             expect(function () { return bsServer.configure('xx', NaN); }).to.throw(TypeError);
             expect(function () { return bsServer.configure('xx', 100); }).to.throw(TypeError);
             expect(function () { return bsServer.configure('xx', 'xx'); }).to.throw(TypeError);
-            expect(function () { return bsServer.configure('xx', []); }).to.throw(TypeError);
             expect(function () { return bsServer.configure('xx', true); }).to.throw(TypeError);
             expect(function () { return bsServer.configure('xx', new Date()); }).to.throw(TypeError);
             expect(function () { return bsServer.configure('xx', function () {}); }).to.throw(TypeError);
 
+            expect(function () { return bsServer.configure('xx', []); }).not.to.throw(TypeError);
             expect(function () { return bsServer.configure('xx', {}); }).not.to.throw(TypeError);
         });
     });
