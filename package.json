@@ -1,6 +1,6 @@
 {
   "name": "lwm2m-bs-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Bootstrap server of lightweight M2M (LWM2M).",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "busyman": "^0.3.0",
     "coap": "^0.21.0",
-    "lwm2m-codec": "0.1.0",
+    "lwm2m-codec": "0.1.1",
     "lwm2m-id": "^1.6.2",
     "nedb": "^1.8.0",
     "network": "^0.3.2"
