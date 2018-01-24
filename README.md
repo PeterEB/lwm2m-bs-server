@@ -30,8 +30,9 @@ Please visit the [Wiki](https://github.com/PeterEB/lwm2m-bs-server/wiki).
 ### LWM2M Bootstrap Server: lwm2m-bs-server
 
 * It is a **LWM2M** Bootstrap Server application framework running on node.js.  
-* It is used to provision the LwM2M Client with the information required to register the LwM2M Server(s).  
-* It support LwM2M Client Initiated Bootstrap.  
+* It is used to provision the LwM2M Client with the information required to register the LwM2M Server(s). 
+* It works well with [**Wakaama**](https://github.com/eclipse/wakaama). 
+* Support LwM2M Client Initiated Bootstrap.  
 
 <br />
 

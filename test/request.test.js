@@ -21,7 +21,7 @@ describe('bs-request', function () {
             it('should passing write request object and return status code', function (done) {
                 var ip = '192.168.1.110',
                     port = 5683,
-                    path = '/lwm2mServer/0',
+                    path = '/1/0',
                     data = { serverURI: 'coap://192.168.1.210:5683' };
 
                 reqObj = {
@@ -64,7 +64,7 @@ describe('bs-request', function () {
             it('should passing discover request object and return status code', function (done) {
                 var ip = '192.168.1.110',
                     port = 5683,
-                    path = '/lwm2mServer/0';
+                    path = '/1/0';
 
                 reqObj = {
                     hostname: ip,
